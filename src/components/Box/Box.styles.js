@@ -4,23 +4,25 @@ import color from "styles/styleVariables";
 export const Card = styled.div`
   background-color: ${color.primaryLight};
   padding: 5rem 3rem;
-  border-radius: 1rem;
+  border-radius: 1.5rem;
   width: 92%;
-  max-width: 60rem;
+  max-width: 55rem;
   text-align: center;
   position: relative;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 `;
 
 export const Advice = styled.p`
   color: ${color.tertiary};
-  font-size: 1rem;
+  font-size: 1.2rem;
   text-transform: uppercase;
   letter-spacing: 0.4rem;
 `;
 
 export const Citate = styled.h1`
   color: ${color.secondary};
-  font-size: 2.3rem;
+  font-size: 2.9rem;
   line-height: 1.5;
   margin: 2rem 0;
 `;
