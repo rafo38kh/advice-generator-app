@@ -15,14 +15,14 @@ export const Card = styled.div`
 
 export const Advice = styled.p`
   color: ${color.tertiary};
-  font-size: 1.2rem;
+  font-size: clamp(1rem, 1.2vw, 1.2rem);
   text-transform: uppercase;
   letter-spacing: 0.4rem;
 `;
 
 export const Citate = styled.h1`
   color: ${color.secondary};
-  font-size: 2.9rem;
+  font-size: clamp(2.3rem, 3vw, 2.9rem);
   line-height: 1.5;
   margin: 2rem 0;
 `;

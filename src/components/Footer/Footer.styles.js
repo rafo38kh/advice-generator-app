@@ -15,13 +15,13 @@ export const FooterLink = styled.a`
   &:link,
   &:visited {
     text-transform: uppercase;
-    color: ${color.secondary};
+    color: ${color.tertiary};
     transition: all 0.2s;
   }
 
   &:hover,
   &:active {
-    color: ${color.tertiary};
+    color: ${color.secondary};
     font-weight: 700;
   }
 `;
