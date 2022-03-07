@@ -24,7 +24,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://www.frontendmentor.io/challenges/advice-generator-app-QdUG-13db](https://www.frontendmentor.io/challenges/advice-generator-app-QdUG-13db)
+- Solution URL: [https://www.frontendmentor.io/solutions/ddvice-generator-app-with-react-and-styled-components-O4bmlr_wW](https://www.frontendmentor.io/solutions/ddvice-generator-app-with-react-and-styled-components-O4bmlr_wW)
 - Live Site URL: [https://rafo38kh.github.io/advice-generator-app/](https://rafo38kh.github.io/advice-generator-app/)
 
 ## My process
@@ -32,11 +32,10 @@ Users should be able to:
 ### Built with
 
 - Semantic HTML5 markup
-- SCSS custom properties
 - CSS Flexbox
+- CSS Grid
 - Mobile-first workflow
 - [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
 - [Styled Components](https://styled-components.com/) - For styles
 
 ## Author

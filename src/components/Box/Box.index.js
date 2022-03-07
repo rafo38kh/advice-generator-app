@@ -45,19 +45,13 @@ class Box extends Component {
   render() {
     return (
       <Card>
-        {/* <Advice>advice #{this.state.adviceId}</Advice> */}
-        <Advice>advice #117</Advice>
-        {/* <Citate>&#10077;{this.state.content}&#10078;</Citate> */}
-        <Citate>
-          &#10077;"It is easy to sit up and take notice, what's difficult is
-          getting up and taking action.&#10078;
-        </Citate>
+        <Advice>advice #{this.state.adviceId}</Advice>
+        <Citate>&#10077;{this.state.content}&#10078;</Citate>
         <Divider>
           <source srcSet={descDividerPic} media="(min-width: 500px)" />
           <DividerImg src={mobDividerPic} alt="" />
         </Divider>
-        {/* <Advice>{this.state.author}</Advice> */}
-        {/* <Advice>AUTHOR</Advice> */}
+        <Advice>{this.state.author}</Advice>
         <Button onClick={this.handlClick}>
           <img src={dicePic} alt="dice" />
         </Button>

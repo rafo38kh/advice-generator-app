@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import color from "styles/styleVariables";
 
-export const Card = styled.div`
+export const Card = styled.main`
   background-color: ${color.primaryLight};
   padding: 5rem 3rem;
   border-radius: 1.5rem;
